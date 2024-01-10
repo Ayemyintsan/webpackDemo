@@ -1,0 +1,50 @@
+.p-bloc{
+    width: 100%;
+    
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.txt-box{
+    width: calc(100%/2);
+    padding: 50px;
+    text-align: center;
+    background-color:$color;
+    margin: 0 auto;
+
+    &--inner{
+        width: 468px;
+        margin: 0 auto;
+    }
+    h2{
+        font-family:'Lato',sans-serif;
+        font-size: 50px;
+        margin-bottom: $bottom;
+    }
+    p{
+        font-family: 'Poppins',sans-serif;
+        font-size: 16px;
+        margin-bottom: $bottom;
+        line-height: 25px;
+    }
+
+}
+.img-box{
+    width: 50%;
+     img{
+        width: 100%;
+        display: block;
+     }
+}
+
+.feacture{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.feacture:nth-of-type(odd){
+    display: flex;
+    flex-direction: row-reverse;
+}

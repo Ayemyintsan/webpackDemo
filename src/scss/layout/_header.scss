@@ -1,0 +1,27 @@
+.l-header{
+    width: 1400px;
+    position: absolute;
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+
+    &__logo{
+        justify-content: space-between;
+        width: 60px;
+        h1{
+            font-family: 'Dancing Script',sans-serif;
+            font-size: 28px;
+        }
+    }
+        &__list{
+                display: flex;
+                padding: 20px;
+                }
+            }
+    
+.l-wrap-inner{
+    margin: 0 auto;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+ }

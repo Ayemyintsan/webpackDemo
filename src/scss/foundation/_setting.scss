@@ -1,0 +1,35 @@
+$color:#fff;
+
+$bottom:50px;
+
+
+@mixin inner{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+ul li a{
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    
+}
+ul{
+    
+    font-size: 12px;
+    margin: 0 auto;
+    display: flex; 
+    list-style: none;
+    gap :4px 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    width: auto;
+}
